@@ -1,0 +1,2 @@
+1. git init > Initialize a new Git repository
+2. git add <file> > Stage a file for commit || git add . > Stage all changes
