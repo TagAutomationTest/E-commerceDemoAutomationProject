@@ -6,7 +6,9 @@ This is an automation framwork created to automate user scenarios for Demo E-coo
 - **Language(s)**: Java
 - **Frameworks**: Selenium, TestNG ,Allure ,Log4j ,data driven from (Json and perperities files)
 - **Libraries**:important libraries or dependencies used in the project.
+
    <properties>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <java.version>21</java.version>
