@@ -1,0 +1,283 @@
+[DEBUG] - [13-04-2025 15:23:53] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\TAG\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+[INFO] - [13-04-2025 15:23:54] [main] [com.SwagLab.Listners.TestNGListeners] - Test Execution started
+[INFO] - [13-04-2025 15:23:54] [main] [com.SwagLab.utils.PropertiesUtils] - Loading Properties File Data
+[INFO] - [13-04-2025 15:23:54] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\TAG\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[INFO] - [13-04-2025 15:23:55] [main] [com.SwagLab.tests.UI.E2eTest] - Login test data loaded from Json
+[INFO] - [13-04-2025 15:23:56] [main] [com.SwagLab.Drivers.DriverManager] - Driver created on :  Chrome
+[INFO] - [13-04-2025 15:23:57] [main] [com.SwagLab.utils.BrowserActions] - Redirecting to URL : https://www.saucedemo.com/
+[DEBUG] - [13-04-2025 15:23:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['username']
+[INFO] - [13-04-2025 15:23:57] [main] [com.SwagLab.utils.JsonUtils] - Json path: 'login-credentials.username' in the json file: 'test-data' has value: 'standard_user'
+[INFO] - [13-04-2025 15:23:57] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#user-name
+[INFO] - [13-04-2025 15:23:57] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#user-name
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: input#user-name
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#user-name
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#user-name
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#user-name
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#user-name
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#user-name
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#user-name
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.ElementActions] - Data entered:  standard_user  in the field:  By.cssSelector: input#user-name
+[DEBUG] - [13-04-2025 15:23:58] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['password']
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.JsonUtils] - Json path: 'login-credentials.password' in the json file: 'test-data' has value: 'secret_sauce'
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#password
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#password
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: input#password
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#password
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#password
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#password
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#password
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#password
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#password
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.ElementActions] - Data entered:  secret_sauce  in the field:  By.cssSelector: input#password
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Waits] - Waiting for element to be Clickable : By.cssSelector: input#login-button
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#login-button
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#login-button
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: input#login-button
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#login-button
+[INFO] - [13-04-2025 15:23:58] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#login-button
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#login-button
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#login-button
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#login-button
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#login-button
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.ElementActions] - Clicked on the element:  By.cssSelector: input#login-button
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.ElementActions] - Get text from :  By.cssSelector: span[class*='title']  Text:  Products
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.ElementActions] - Get text from :  By.cssSelector: span[class*='title']  Text:  Products
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: span[class*='title']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.Pages.SignInPage] - assertion passed  :  actual header is : Products and the expected header is :  Products
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.AllureUtils] - Logs attached to Allure report
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.Listners.TestNGListeners] - Test case successfulLogin passed
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.BrowserActions] - Redirecting to URL : https://www.saucedemo.com/inventory.html
+[DEBUG] - [13-04-2025 15:23:59] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['name']
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.JsonUtils] - Json path: 'product-names.item1.name' in the json file: 'test-data' has value: 'Sauce Labs Backpack'
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.Pages.HomePage] - adding Sauce Labs Backpack to cart
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be Clickable : [unknown locator]
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : [unknown locator]
+[INFO] - [13-04-2025 15:23:59] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Clicked on the element:  [unknown locator]
+[DEBUG] - [13-04-2025 15:24:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['name']
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.JsonUtils] - Json path: 'product-names.item1.name' in the json file: 'test-data' has value: 'Sauce Labs Backpack'
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.Pages.HomePage] - Asserting if Sauce Labs Backpackis added to cart
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Get text from :  [unknown locator]  Text:  Remove
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  [unknown locator]
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.Pages.HomePage] - product Sauce Labs Backpack added to cart successfully
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.AllureUtils] - Logs attached to Allure report
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.Listners.TestNGListeners] - Test case addingItemToCart passed
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be Clickable : By.cssSelector: a[class*='shopping_cart_link']
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: a[class*='shopping_cart_link']
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: a[class*='shopping_cart_link']
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: a[class*='shopping_cart_link']
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: a[class*='shopping_cart_link']
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: a[class*='shopping_cart_link']
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: a[class*='shopping_cart_link']
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: a[class*='shopping_cart_link']
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: a[class*='shopping_cart_link']
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: a[class*='shopping_cart_link']
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Clicked on the element:  By.cssSelector: a[class*='shopping_cart_link']
+[DEBUG] - [13-04-2025 15:24:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['name']
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.JsonUtils] - Json path: 'product-names.item1.name' in the json file: 'test-data' has value: 'Sauce Labs Backpack'
+[DEBUG] - [13-04-2025 15:24:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item1']['price']
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.JsonUtils] - Json path: 'product-names.item1.price' in the json file: 'test-data' has value: '$29.99'
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Get text from :  By.cssSelector: .inventory_item_name  Text:  Sauce Labs Backpack
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.Pages.CartPage] - product name is : Sauce Labs Backpack
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Get text from :  By.cssSelector: .inventory_item_name  Text:  Sauce Labs Backpack
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: .inventory_item_name
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Get text from :  By.cssSelector: .inventory_item_price  Text:  $29.99
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.Pages.CartPage] - product Price is : $29.99
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:00] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Get text from :  By.cssSelector: .inventory_item_price  Text:  $29.99
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: .inventory_item_price
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.Pages.CartPage] - product details validated properly
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.Pages.CartPage] - Clicking on CheckoutBtn --->>
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be Clickable : By.cssSelector: button#checkout
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: button#checkout
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: button#checkout
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: button#checkout
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: button#checkout
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: button#checkout
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: button#checkout
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: button#checkout
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: button#checkout
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: button#checkout
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Clicked on the element:  By.cssSelector: button#checkout
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.AllureUtils] - Logs attached to Allure report
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.Listners.TestNGListeners] - Test case checkoutTheProduct passed
+[DEBUG] - [13-04-2025 15:24:01] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-form']['firstName']
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.JsonUtils] - Json path: 'information-form.firstName' in the json file: 'test-data' has value: 'testFirst_'
+[DEBUG] - [13-04-2025 15:24:01] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-form']['lastName']
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.JsonUtils] - Json path: 'information-form.lastName' in the json file: 'test-data' has value: 'testSecond_'
+[DEBUG] - [13-04-2025 15:24:01] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-form']['postalCode']
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.JsonUtils] - Json path: 'information-form.postalCode' in the json file: 'test-data' has value: '12345'
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Data entered:  testFirst_  in the field:  By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Data entered:  testSecond_  in the field:  By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Data entered:  12345  in the field:  By.cssSelector: input#postal-code
+[DEBUG] - [13-04-2025 15:24:01] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-form']['firstName']
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.JsonUtils] - Json path: 'information-form.firstName' in the json file: 'test-data' has value: 'testFirst_'
+[DEBUG] - [13-04-2025 15:24:01] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-form']['lastName']
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.JsonUtils] - Json path: 'information-form.lastName' in the json file: 'test-data' has value: 'testSecond_'
+[DEBUG] - [13-04-2025 15:24:01] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-form']['postalCode']
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.JsonUtils] - Json path: 'information-form.postalCode' in the json file: 'test-data' has value: '12345'
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - input :  By.cssSelector: input#first-name filled by text : testFirst_
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#first-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.ElementActions] - input :  By.cssSelector: input#last-name filled by text : testSecond_
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:01] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#last-name
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.ElementActions] - input :  By.cssSelector: input#postal-code filled by text : 12345
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#postal-code
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Waits] - Waiting for element to be Clickable : By.cssSelector: input#continue
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#continue
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#continue
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Scrolling] - Scrolling to element : By.cssSelector: input#continue
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#continue
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#continue
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#continue
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Waits] - Waiting for element to be visible : By.cssSelector: input#continue
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.Waits] - Waiting for element to be present : By.cssSelector: input#continue
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.ElementActions] - Finding element :  By.cssSelector: input#continue
+[INFO] - [13-04-2025 15:24:02] [main] [com.SwagLab.utils.ElementActions] - Clicked on the element:  By.cssSelector: input#continue
