@@ -8,16 +8,27 @@ This is an automation framwork created to automate user scenarios for Demo E-coo
 - **Libraries**:important libraries or dependencies used in the project.
    <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
         <java.version>21</java.version>
+
         <maven-surefire.version>3.5.3</maven-surefire.version>
+
         <log4j.version>2.24.3</log4j.version>
+
         <allure.version>2.29.1</allure.version>
+
         <aspectj.version>1.9.23</aspectj.version>
+
         <selenium.version>4.31.0</selenium.version>
+
         <testNG.version>7.11.0</testNG.version>
+
         <commons-io.version>2.18.0</commons-io.version>
+
         <json-simple.version>1.1.1</json-simple.version>
+
         <json-path.version>2.9.0</json-path.version>
+
     </properties>
   
 
@@ -52,7 +63,7 @@ This is an automation framwork created to automate user scenarios for Demo E-coo
 ### Steps to Install:
 1. Clone the repository:
     ```bash
-    git clone [https://github.com/TagAutomationTest/MOJ-FW.git]
+    git clone [https://github.com/TagAutomationTest/E-commerceDemoAutomationProject.git]
     ```
 2. Navigate into the project directory, Run below commands to Install dependencies.
     ```bash
