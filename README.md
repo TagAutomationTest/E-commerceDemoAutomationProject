@@ -50,7 +50,9 @@ This is an automation framwork created to automate user scenarios for Demo E-coo
 - **Feature 5**: Log4j
 - **Feature 6**: TestNG Listeners
 - **Feature 7**: read data from properities files
-- **Feature 8**:  read test data from json
+- **Feature 8**: read test data from json
+- **Feature 9**: send test execution status by email
+- **Feature 10**:Open allure report on static port number 
 
 ---
 
