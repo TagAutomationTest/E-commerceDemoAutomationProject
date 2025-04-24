@@ -1,8 +1,0 @@
-1. git init > Initialize a new Git repository
-2. git add <file> > Stage a file for commit || git add . > Stage all changes
-3. git commit -m "message" > Commit staged changes with a message
-4. git status > Show the status of the working directory and staging area
-5. git log > Show commit history
-6. git diff > Show changes between commits, commit and working tree, etc.
-7. git rm --cached . -r > Unstage all files
-8. git reset --hard HEAD > Discard all changes in the working directory
