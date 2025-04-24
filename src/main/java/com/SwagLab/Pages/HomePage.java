@@ -5,13 +5,11 @@ import com.SwagLab.utils.ElementActions;
 import com.SwagLab.utils.LogsUtil;
 import com.SwagLab.utils.Validations;
 import io.qameta.allure.Step;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.locators.RelativeLocator;
 
-import java.util.List;
-
 public class HomePage {
-    private List<WebElement> allCartBtns;
 
     private WebDriver driver;
 
