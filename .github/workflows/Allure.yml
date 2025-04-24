@@ -1,5 +1,4 @@
 name: Run Tests with Allure Report
-
 on:
   push:
     branches: [ "master" ]
