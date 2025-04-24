@@ -12,6 +12,8 @@ target/
 *.iws
 *.iml
 *.ipr
+.e-commerce-automation-demo.iml
+.Test Results - com_SwagLab_tests_UI_E2eTest_and_3_more.html
 
 ### Eclipse ###
 .apt_generated
