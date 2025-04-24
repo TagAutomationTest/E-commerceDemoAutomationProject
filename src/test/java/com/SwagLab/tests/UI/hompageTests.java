@@ -12,7 +12,7 @@ public class hompageTests {
     private HomePage homePage;
     JsonUtils testData;
 
-
+//Depedency  deleted
     @Test()
     void testAddSpecificItemToCart() {
         System.out.println("TestcaseHelper --> Testcase 2");
