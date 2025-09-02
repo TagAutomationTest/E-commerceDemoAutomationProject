@@ -1,0 +1,22 @@
+{
+  "login-credentials": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "product-names": {
+    "item1": {
+      "name": "Sauce Labs Backpack",
+      "price": "$29.99"
+    },
+    "item2": {
+      "name": "Sauce Labs Bike Light",
+      "price": "$9.99"
+    }
+  },
+  "information-form": {
+    "firstName": "testFirst_",
+    "lastName": "testSecond_",
+    "postalCode": "12345"
+  },
+  "confirmation-message": "Thank you for your order!"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for e-commerce-automation-demo" enabled="true">
+        <sourceOutputDir name="test-outputs/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="test-outputs/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="e-commerce-automation-demo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
