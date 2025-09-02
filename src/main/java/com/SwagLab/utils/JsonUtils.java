@@ -5,6 +5,10 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 import java.io.FileReader;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class JsonUtils {
     private static final String JSON_FILE_PATH = "src/test/resources/";
@@ -32,5 +36,11 @@ public class JsonUtils {
         LogsUtil.info("Json path: '" + jsonPath + "' in the json file: '" + this.jsonFileName + "' has value: '" + testData + "'");
         return testData;
     }
-
+    public static String readJsonFile(String filePath) {
+        try {
+            return new String(Files.readAllBytes(Paths.get(filePath)), StandardCharsets.UTF_8);
+        } catch (IOException e) {
+            throw new RuntimeException("Failed to read JSON file: " + filePath, e);
+        }
+    }
 }
