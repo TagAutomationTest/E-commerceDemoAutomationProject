@@ -1,0 +1,22 @@
+{
+  "Dubai": {
+    "latitude": 25.276987,
+    "longitude": 55.296249,
+    "accuracy": 50
+  },
+  "Cairo": {
+    "latitude": 30.044420,
+    "longitude": 31.235712,
+    "accuracy": 40
+  },
+  "Riyadh": {
+    "latitude": 24.7136,
+    "longitude": 46.6753,
+    "accuracy": 50
+  },
+  "NewYork": {
+    "latitude": 40.712776,
+    "longitude": -74.005974,
+    "accuracy": 30
+  }
+}

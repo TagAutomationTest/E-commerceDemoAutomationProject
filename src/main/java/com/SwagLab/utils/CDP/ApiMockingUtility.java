@@ -8,10 +8,7 @@ import org.openqa.selenium.devtools.v138.fetch.model.HeaderEntry;
 import org.openqa.selenium.devtools.v138.fetch.model.RequestPattern;
 import org.openqa.selenium.devtools.v138.network.model.ErrorReason;
 
-import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.*;
 
 public class ApiMockingUtility {
@@ -25,6 +22,7 @@ public class ApiMockingUtility {
     public ApiMockingUtility(DevTools devTools) {
         this.devTools = devTools;
     }
+
     /**
      * Create custom headers for mocked responses
      */
@@ -33,6 +31,7 @@ public class ApiMockingUtility {
         headerMap.forEach((key, value) -> headers.add(new HeaderEntry(key, value)));
         return headers;
     }
+
     /**
      * Enable request interception for a given URL pattern
      */
@@ -46,8 +45,8 @@ public class ApiMockingUtility {
      * Mock a response for a given request
      */
 
-    public void mockResponse(String urlPattern, String urlPart, int statusCode, List<HeaderEntry> headers,String JsonFileName) {
-        jsonFilePath = System.getProperty("user.dir") + "\\src\\test\\resources\\"+JsonFileName+".json";
+    public void mockResponse(String urlPattern, String urlPart, int statusCode, List<HeaderEntry> headers, String JsonFileName) {
+        jsonFilePath = System.getProperty("user.dir") + "\\src\\test\\resources\\" + JsonFileName + ".json";
         fakeResponse = JsonUtils.readJsonFile(jsonFilePath);
 
         enableInterception("*" + urlPart + "*");

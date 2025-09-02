@@ -1,10 +1,6 @@
 package com.SwagLab.tests.UI;
 
-import com.SwagLab.utils.CDP.ApiMockingUtility;
-import com.SwagLab.utils.CDP.CPD_MockGeolocationUtlity;
-import com.SwagLab.utils.CDP.ConsoleUtils;
-import com.SwagLab.utils.CDP.NetworkProfiles;
-import com.SwagLab.utils.chromeEmulatorsUtlity;
+import com.SwagLab.utils.CDP.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -22,7 +18,7 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.*;
 
-public class chrome_CDPTest {
+public class chromecdptest {
     ChromeDriver driver;
     DevTools devTools;
     WebDriverWait wait;
@@ -30,16 +26,15 @@ public class chrome_CDPTest {
     NetworkProfiles profiles;
     ApiMockingUtility apiMock;
     List<HeaderEntry> headers;
-    chromeEmulatorsUtlity chromeEmulator;
+    chromeEmulatorMobileDeviceManager chromeEmulator;
     CPD_MockGeolocationUtlity mockGeolocation;
     ConsoleUtils consoleUtils;
 
-    //Locators
     By dropDownLink = By.xpath("//a[text()='Dropdown']");
     By DropDownList = By.id("dropdown");
     By virtualLiberaryBtn = By.xpath("//button[contains(text(),' Library ')]");
     By oneBook_Msg = By.xpath("//p[contains(text(),'Oops')]");
-    By locationDiv=By.xpath("//div[text()='Your Location']/following-sibling::div[@class='datavalue']");
+    By locationDiv = By.xpath("//div[text()='Your Location']/following-sibling::div[@class='datavalue']");
 
     @BeforeClass
     public void setUp() {
@@ -52,11 +47,14 @@ public class chrome_CDPTest {
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         profiles = new NetworkProfiles(devTools);
         apiMock = new ApiMockingUtility(devTools);
-        chromeEmulator = new chromeEmulatorsUtlity(devTools);
+        chromeEmulator = new chromeEmulatorMobileDeviceManager(devTools);
         mockGeolocation = new CPD_MockGeolocationUtlity(devTools, driver);
         consoleUtils = new ConsoleUtils(devTools);
     }
 
+    /**
+     * Logs and views the chrome console logs
+     */
     @Test
     public void viewBrowserConsoleLogs() {
 
@@ -74,28 +72,23 @@ public class chrome_CDPTest {
         driver.get("http://the-internet.herokuapp.com/broken_images");
     }
 
+    /**
+     * Mock the chrome Geolocation using CDP
+     */
     @Test
-    public void mockGeoLocation_executeCDPCommand() {
-        // -------- UAE Location (Dubai) --------
-        mockGeolocation.mockGeoLocationCdpCommand(25.276987, 55.296249, 1);
-        driver.get("https://my-location.org/");
-    }
-
-    @Test
-    public void mockGeoLocation_DevTools() throws InterruptedException {
-        //My Real Geolocation (Egypt)
+    public void MockLocation() {
         driver.get("https://my-location.org");
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",
                 driver.findElement(By.xpath("//div[contains(text(),'Your Location')]")));
         Assert.assertTrue(driver.findElement(locationDiv).getText().contains("Egypt"));
 
         // -------- UAE Location (Dubai) --------
-        mockGeolocation.mockGeoLocationDevTools(25.276987, 55.296249, 1);
+        mockGeolocation.mockGeoLocation("Dubai");
         driver.navigate().refresh();
         Assert.assertTrue(driver.findElement(locationDiv).getText().contains("United Arab Emirates"));
 
         // -------- KSA Location (Riyadh) --------
-        mockGeolocation.mockGeoLocationDevTools(24.7136, 46.6753, 1);
+        mockGeolocation.mockGeoLocation("Riyadh");
         driver.navigate().refresh();
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",
                 driver.findElement(By.xpath("//div[contains(text(),'Your Location')]")));
@@ -103,29 +96,15 @@ public class chrome_CDPTest {
     }
 
     @Test
-    public void simulteSlowConnection3G() {
-
-        profiles.emulate3G();
-        driver.get("https://the-internet.herokuapp.com/");
-        wait.until(
-                ExpectedConditions.visibilityOfElementLocated(dropDownLink)).click();
-        WebElement DropList = wait.until(
-                ExpectedConditions.visibilityOfElementLocated(DropDownList));
-        select = new Select(DropList);
-        select.selectByVisibleText("Option 2");
-
-    }
-
-    @Test
-    public void switchFromOfflineToOnline() {
-
-        profiles.goOffline();
+    public void emulateNetworkProfilesOfflineToOnline() {
         try {
+            profiles.emulateNetworkConditions("Offline");
             driver.get("https://the-internet.herokuapp.com/");
         } catch (Exception e) {
             System.out.println("Expected offline failure: " + e.getMessage());
         }
-        profiles.emulate3G();
+        // Switch to Ethernet (unlimited)
+        profiles.emulateNetworkConditions("Ethernet");
         driver.navigate().refresh();
         wait.until(
                 ExpectedConditions.visibilityOfElementLocated(dropDownLink)).click();
@@ -133,28 +112,11 @@ public class chrome_CDPTest {
                 ExpectedConditions.visibilityOfElementLocated(DropDownList));
         select = new Select(DropList);
         select.selectByVisibleText("Option 2");
-
     }
 
     @Test
-    public void emulateMobileEmulatorforPredefindDevices() {
-        chromeEmulator.emulateDevice("iPad");
-        driver.get("https://the-internet.herokuapp.com/");
-        wait.until(
-                ExpectedConditions.visibilityOfElementLocated(dropDownLink)).click();
-        WebElement DropList = wait.until(
-                ExpectedConditions.visibilityOfElementLocated(DropDownList));
-        select = new Select(DropList);
-        select.selectByVisibleText("Option 2");
-    }
-
-    @Test
-    public void emulateMobileEmulatorforcustomDevices() {
-        chromeEmulator.emulateCustomDevice(
-                414, 896, 3,
-                "Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 " +
-                        "(KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
-                "iOS");
+    public void emulateChromeDevice() {
+        chromeEmulator.emulateDevices("iPhoneSE");
         driver.get("https://the-internet.herokuapp.com/");
         wait.until(
                 ExpectedConditions.visibilityOfElementLocated(dropDownLink)).click();

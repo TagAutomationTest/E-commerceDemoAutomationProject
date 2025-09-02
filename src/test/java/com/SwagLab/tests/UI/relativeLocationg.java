@@ -1,12 +1,6 @@
 package com.SwagLab.tests.UI;
 
-import com.SwagLab.utils.CDP.ApiMockingUtility;
-import com.SwagLab.utils.CDP.CPD_MockGeolocationUtlity;
-import com.SwagLab.utils.CDP.ConsoleUtils;
-import com.SwagLab.utils.CDP.NetworkProfiles;
-import com.SwagLab.utils.chromeEmulatorsUtlity;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.locators.RelativeLocator;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -16,8 +10,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-
-import static org.openqa.selenium.support.locators.RelativeLocator.with;
 
 public class relativeLocationg {
 
@@ -55,10 +47,10 @@ public class relativeLocationg {
                 .below(passwordField)      // condition 1
                 .above(forgetPassword);   // condition 2
 
-//LOGIN PROCEDURE
         driver.get("https://opensource-demo.orangehrmlive.com/");
         wait.until(ExpectedConditions.visibilityOfElementLocated(userName_Input)).sendKeys("Admin");
         driver.findElement(passwordField).sendKeys("admin123");
         driver.findElement(login_Btn).click();
         Assert.assertTrue(wait.until(ExpectedConditions.visibilityOfElementLocated(AssignLeave)).isDisplayed(), "Login Failed");
-    }}
+    }
+}
